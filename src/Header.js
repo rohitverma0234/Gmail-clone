@@ -31,10 +31,6 @@ const Header = () => {
         </IconButton>
 
         <Avatar/>
-        
-        
-
-      
 
         </div>
 
