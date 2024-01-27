@@ -1,0 +1,35 @@
+.emailList__settings > .emailList__settingsLeft{
+    display: flex;
+    align-items: center;
+}
+
+.emailList{
+    flex:1;
+    overflow: scroll;
+}
+
+.emailList__settings{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top:0;
+    border-bottom: 1px solid whitesmoke;
+    background-color: white;
+    z-index: 999;
+    
+}
+
+.checkbox{
+    height: 19px;
+    width: 19px;
+    cursor: pointer;
+}
+
+
+.emailList__sections{
+    display: flex;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid whitesmoke;
+    background-color: white;
+}
