@@ -3,6 +3,7 @@ import "./EmailList.css";
 import { ArrowDropDown, ChevronLeft, ChevronRight, Inbox, KeyboardHide, LocalOffer, MoreVert, People, Redo, Settings } from '@mui/icons-material';
 import { IconButton } from '@mui/material';
 import Section from './Section';
+import EmailRow from './EmailRow';
 
 const EmailList = () => {
   return (
@@ -30,6 +31,11 @@ const EmailList = () => {
         <Section Icon={Inbox} title="Primary" color="red" selected={true}/>
         <Section Icon={People} title="Social" color="#1A73E8"/>
         <Section Icon={LocalOffer} title="Promotions" color="green"/>
+        </div>
+
+        <div className='emialList__list'>
+        <EmailRow title="GitHub" subject="Account!!!" description="Good Morning, Thanks for creating an Account on GitHub" time="11AM"/>
+        <EmailRow title="GitHub" subject="Account" description="Thanks for creating an Account on GitHub" time="11AM"/>
         </div>
 
     </div>
