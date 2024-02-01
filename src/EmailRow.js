@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 
 const EmailRow = ({id, title, subject, description,time}) => {
   const navigate = useNavigate();
-  return <div className="emailRow" onClick={()=>navigate('/mail')}>
+  return <div className="emailRow" onClick={()=>navigate("/mail")}>
 
   <div className="emailRow__options">
   <input type='checkbox' className='checkbox'/>
