@@ -1,1 +1,1 @@
-# Initialize Firebse
+# Initialize Firebase (firebase.js)
