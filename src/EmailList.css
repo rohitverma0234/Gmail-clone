@@ -33,3 +33,8 @@
     border-bottom: 1px solid whitesmoke;
     background-color: white;
 }
+
+.emailList{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}

@@ -7,10 +7,10 @@ import Mail from './Mail';
 import EmailList from './EmailList';
 import SendMail from './SendMail';
 import { useSelector } from 'react-redux';
-import { selectMail } from './features/mailSlice';
+import { selectSendMessageIsOpen } from './features/mailSlice';
 
 function App() {
-  const sendMessageIsOpen = useSelector(selectMail)
+  const sendMessageIsOpen = useSelector(selectSendMessageIsOpen)
   return (
     <BrowserRouter>
     <div className="app">
