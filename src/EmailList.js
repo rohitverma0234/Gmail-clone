@@ -56,8 +56,9 @@ const EmailList = () => {
           />
         })}
 
-        <EmailRow title="GitHub" subject="Account!!!" description="Good Morning, Thanks for creating an Account on GitHub" time="11AM" />
-        <EmailRow title="GitHub" subject="Account" description="Thanks for creating an Account on GitHub" time="11AM" />
+        {/* <EmailRow title="GitHub" subject="Account!!!" description="Good Morning, Thanks for creating an Account on GitHub" time="11AM" />
+        <EmailRow title="GitHub" subject="Account" description="Thanks for creating an Account on GitHub" time="11AM" /> */}
+        
       </div>
 
     </div>
