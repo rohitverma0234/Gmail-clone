@@ -15,4 +15,5 @@
   <li><a href="https://github.com/rohitverma0234/Gmail-clone/tree/EmailList">Email-list Section</a></li>
   <li><a href="https://github.com/rohitverma0234/Gmail-clone/tree/Firebase">Initialize Firebase<a/></li>
   <li><a href="https://github.com/rohitverma0234/Gmail-clone/tree/Refining-the-Build">Refining the build<a/></li>
+  <li><a href=" https://github.com/rohitverma0234/Gmail-clone/tree/Final-Build">Final build & Firebase Hosting<a/></li>
 </ul>
