@@ -1,3 +1,5 @@
+# Sidebar Section using Props & Material UI Icons
+
 # Gmail with REACT.JS! (with React-Router, REDUX & Firebase)
 
 ## Follow the 3 Steps and you are good to go.
