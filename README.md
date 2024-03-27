@@ -1,3 +1,5 @@
+# Initialize Firebase (firebase.js)
+=======
 # Build EmailList Section & Started Redux
 
 ## EmailList.js contains:-
