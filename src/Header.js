@@ -1,8 +1,19 @@
 import React from 'react'
 import "./Header.css"
 import { Avatar, IconButton } from '@mui/material';
+import { useDispatch, useSelector } from 'react-redux';
+import { logout, selectUser } from './features/userSlice ';
+import { auth } from './firebase';
 
 const Header = () => {
+  const user = useSelector(selectUser);
+  const dispatch = useDispatch();
+  const signOut=()=>{
+    auth.signOut().then(()=>{
+      dispatch(logout())
+    })
+  }
+
   return (
     <div className='header'>
     
@@ -23,15 +34,15 @@ const Header = () => {
 
         <div className='header__right'>
         <IconButton>
-        <span class="material-icons-outlined">apps</span>
+        <span className="material-icons-outlined">apps</span>
         </IconButton>
 
         <IconButton>
-        <span class="material-icons-outlined">notifications</span>
+        <span className="material-icons-outlined">notifications</span>
         </IconButton>
 
-        <Avatar/>
-
+        <Avatar onClick={signOut} src={user?.photoUrl}/>
+        
         </div>
 
     </div>
